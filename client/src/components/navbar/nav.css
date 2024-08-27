@@ -1,0 +1,32 @@
+.nav{
+    background-color:#4b4338;
+    
+    height: 70px;
+  
+}
+ul>li{  
+    display: flex;
+    float: right;
+    margin-top: 5px;
+    padding: 15px;
+    display: inline-block;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+        color: aliceblue;
+        justify-content: center;
+        margin-top: 150%;
+}
+@media screen and (max-width : 405px) {
+    ul>li{
+        margin-top: auto;
+        font-size: smaller;
+    }
+    ul>li>a{
+        text-decoration: none;
+        color: aliceblue;
+        justify-content: center;
+        margin-top: 150%;
+    }
+}
